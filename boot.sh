@@ -1,9 +1,9 @@
 #!/bin/bash
 
 show_help() {
-    echo "Usage: ./typescript-boilerplate.sh -n [directory]"
+    echo "Usage: ./boot.sh -n [directory]"
     echo "This script sets up a TypeScript project boilerplate in the specified directory."
-    echo "Example: ./typescript-boilerplate.sh -n my-project"
+    echo "Example: ./boot.sh -n my-project"
     exit 1
 }
 
