@@ -17,7 +17,6 @@ done
 
 if [ -z "$directory" ]; then
     show_help
-    exit 1
 fi
 
 echo "Creating directory as $directory"
