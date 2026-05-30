@@ -105,3 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=3'
+
+export PATH=$HOME/.local/bin:$PATH
+export EDITOR="zed --wait"
+export VISUAL="zed --wait"
+unset zle_bracketed_paste
