@@ -1,0 +1,5 @@
+# example environment
+SHELL=/usr/bin/zsh
+HOME=/home/asince
+
+0 3 * * * find $HOME/.local/share/Trash -type f -mtime +30 -delete && find $HOME/.local/share/Trash -mindepth 1 -type d -empty -delete
