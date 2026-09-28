@@ -11,7 +11,10 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
+    logging:
+      driver: "k8s-file"
+      #options:
+      # max-size: "10m"
 volumes:
   postgres_data:
     external: true
